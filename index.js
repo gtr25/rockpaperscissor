@@ -21,7 +21,7 @@ function warning() {
 
 function showResult() {
     clearText()
-    endResultEl.textContent = "Results:  Won: " + winCount + "Lost: " + lostCount + " Tied: " + tiedCount
+    endResultEl.textContent = "Won: " + winCount + " Lost: " + lostCount + " Tied: " + tiedCount
 
 }
 
