@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" sizes="64x64" href="palm.png">
+    <link rel="stylesheet" href="index.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <div class="head1">
+        <br>
+        <h1 id="head-1">ROCK PAPER SCISSORS</h1><br>
+    </div>
+    <div class="body-text">
+        <p>Player:</p>
+        <button type="button" class="btn btn-primary btn-sm" onclick="rock()" id="rockButton">Rock</button>
+        <button type="button" class="btn btn-primary btn-sm" onclick="paper()" id="paperButton">Paper</button>
+        <button type="button" class="btn btn-primary btn-sm" onclick="scissor()" id="scissorButton">Scissor</button>
+        <p>Computer:</p>
+        <button type="button" class="btn btn-primary btn-sm" onclick="warning()" id="computerSign" >...</button>
+        <p id="warning"></p>
+        <p id="result">READY!</p>
+        <!-- <button type="button" class="btn btn-primary btn-sm" onclick="showResult()" id="showResultBtn" >RESULTS</button> <br> -->
+        <button type="button" class="btn btn-primary btn-sm" onclick="endGame()" id="endGameBtn" >END</button>
+        <br><br><p id="endResult"></p>
+        <script src="index.js"></script>
+    </div>
+    
+</body>
+</html>

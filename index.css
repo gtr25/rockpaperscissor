@@ -1,0 +1,95 @@
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a101a;
+    background-color: #b1b1b1;
+    text-align: center;
+    object-position: center;
+    position: relative;
+    background-image: url("background.jpg");
+    background-image: repeating-linear-gradient();
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#head-1 {
+    font-size: 40px;
+    font-weight: bolder;
+
+    color: rgb(255, 255, 255);
+}
+
+.btn-radius {
+    border-radius: 100px !important;
+}
+
+.btn {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 4px;
+	border-radius: 5px;
+    padding: 13px 28px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+    text-transform: uppercase;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-sm {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 11px 25px;	
+}
+
+.btn-primary {
+    background: #5a7ce2a2;
+    background: -moz-linear-gradient(-45deg, #1D7DCA 0%, #8283e8 50%, #5c5de8 51%, #6DCAEA 71%, #1A95FF 100%);
+    background: -webkit-linear-gradient(-45deg, #1D7DCA 0%,#8283e8 50%,#5c5de8 51%,#6DCAEA 71%,#1A95FF 100%);
+    background: linear-gradient(135deg, #1D7DCA 0%,#8283e8 50%,#5c5de8 51%,#6DCAEA 71%,#1A95FF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D7DCA', endColorstr='#1A95FF',GradientType=1 );
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    border: medium none;
+    min-width: 150px;
+    padding: 10px;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{
+        background-position:0% 31%
+    }
+    50%{
+        background-position:100% 70%
+    }
+    100%{
+        background-position:0% 31%
+    }
+}
+@-moz-keyframes AnimationName {
+    0%{
+        background-position:0% 31%
+    }
+    50%{
+        background-position:100% 70%
+    }
+    100%{
+        background-position:0% 31%
+    }
+}
+@keyframes AnimationName {
+    0%{
+        background-position:0% 31%
+    }
+    50%{
+        background-position:100% 70%
+    }
+    100%{
+        background-position:0% 31%
+    }
+}
