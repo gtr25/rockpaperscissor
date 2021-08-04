@@ -8,7 +8,8 @@ let hands = ["Rock", "Paper", "Scissor"];
 let winCount = 0;
 let lostCount = 0;
 let tiedCount = 0;
-endResultEl.textContent = "Won: " + winCount + "\n Lost: " + lostCount + "\n Tied: " + tiedCount;
+
+endResultEl.textContent = "Won: " + winCount + " Lost: " + lostCount + " Tied: " + tiedCount;
 
 
 function getRandomNumber() {
@@ -16,7 +17,7 @@ function getRandomNumber() {
 }
 
 function warning() {
-    warningEl.textContent = "Just Choose Your's🤨"
+    warningEl.textContent = "You can't choose that 💀"
 }
 
 function showResult() {
@@ -27,11 +28,11 @@ function showResult() {
 
 function endGame() {
     if (winCount > lostCount) {
-        location.href = "https://media.tenor.com/images/de1a6d646eaad87e47cc971045bda1f8/tenor.gif";
+        location.href = "https://bit.ly/3imIRjn";
     }else if (lostCount > winCount) {
-        location.href = "https://i.imgur.com/dsF1ydA.jpg";
+        location.href = "https://bit.ly/3ikao59";
     } else {
-        location.href = "https://i.imgur.com/eMA4nkI.jpg";
+        location.href = "https://bit.ly/37hBovA";
     }
 }
 
@@ -101,4 +102,3 @@ function scissor() {
         showResult();
     }
 }
-
